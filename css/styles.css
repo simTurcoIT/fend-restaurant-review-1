@@ -339,6 +339,18 @@ nav h1 a {
 
   .inside #restaurant-container{
     order: 3;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border-bottom: 0px;
+  }
+
+  .inside #reviews-container {
+    align-items: center;
+    position: relative;
+    margin: auto;
+    width: 60%;
   }
 
   .inside #footer {
