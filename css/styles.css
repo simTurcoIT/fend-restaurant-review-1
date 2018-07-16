@@ -342,15 +342,16 @@ nav h1 a {
     align-items: center;
     position: relative;
     margin: auto;
-    width: 90%;
+    width: 87%;
     border-bottom: 0px;
+    border-top: 0px;
   }
 
   .inside #reviews-container {
     align-items: center;
     position: relative;
     margin: auto;
-    width: 90%;
+    width: 87%;
   }
 
   .inside #footer {
