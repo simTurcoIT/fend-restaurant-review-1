@@ -25,7 +25,8 @@ a {
 	color: orange;
 	text-decoration: none;
 }
-a:hover, a:focus {
+a:hover, 
+a:focus {
 	color: #3397db;
 	text-decoration: none;
 }
@@ -41,7 +42,18 @@ h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 #maincontent {
