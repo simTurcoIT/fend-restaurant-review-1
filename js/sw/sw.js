@@ -23,10 +23,11 @@ let urlsToCache = [
 
 self.addEventListener('install', (event) => {
 	event.waitUntil(
-		caches.open(staticCacheName).then((cache) => {
-			console.log('Opened cache'); 
+		caches.open(staticCacheName).then((cache) => { 
 			return cache.addAll(urlsToCache);
-		})
+		}).catch(error => {
+      console.log(error);
+    })
 	);
 });
 
