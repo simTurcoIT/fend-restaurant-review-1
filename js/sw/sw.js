@@ -25,9 +25,9 @@ self.addEventListener('install', (event) => {
 	event.waitUntil(
 		caches.open(staticCacheName).then((cache) => { 
 			return cache.addAll(urlsToCache);
-		}).catch(error => {
-      console.log(error);
-    })
+		        }).catch(error => {
+                        console.log(error);
+                        })
 	);
 });
 
