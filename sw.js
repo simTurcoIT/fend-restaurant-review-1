@@ -2,12 +2,12 @@ const staticCacheName = 'restaurant-static-v1';
 
 let urlsToCache = [
   '/', 
+  './sw_registration.js',
   'index.html',
   'restaurant.html',
   'css/styles.css',
   'js/main.js',
   'js/restaurant_info.js',
-  'js/sw_registration.js',
   'js/dbhelper.js',
   'data/restaurants.json',
   'img/1.jpg',
@@ -27,8 +27,8 @@ self.addEventListener('install', (event) => {
     caches.open(staticCacheName)
     .then((cache) => { 
       return cache.addAll(urlsToCache);
-            }).catch((err) => {
-              console.log(err);
+            }).catch( error => {
+              console.log(error);
             })
   ); 
 });
