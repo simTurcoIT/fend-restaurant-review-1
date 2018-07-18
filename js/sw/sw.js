@@ -2,6 +2,7 @@ const staticCacheName = 'restaurant-static-v1';
 
 let urlsToCache = [
   '/', 
+  'js/sw/sw_registration.js'
   'index.html',
   'restaurant.html',
   'css/styles.css',
